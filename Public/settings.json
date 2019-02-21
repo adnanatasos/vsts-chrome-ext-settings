@@ -1,0 +1,82 @@
+{
+    "isVstsEnabled": true,
+    "isRenderSwimlaneWipLimitsEnabled": false,
+    "isHighlightGroupsEnabled": true,
+    "startupDelayInMs": 2500,
+    "swimlaneStageWipLimits": {
+        "ATDD": {
+            "BAU": 1,
+            "Fast Track": 1,
+            "PIM2,Global,TGR": 4,
+            "Tech": 4
+        },
+        "Dev": {
+            "BAU": 1,
+            "Fast Track": 1,
+            "PIM2,Global,TGR": 4,
+            "Tech": 4
+        },
+        "Queue": {
+            "BAU": 3,
+            "Fast Track": 3,
+            "PIM2,Global,TGR": 5,
+            "Tech": 5
+        },
+        "Ready": {
+            "BAU": 1,
+            "Fast Track": 1,
+            "PIM2,Global,TGR": 4,
+            "Tech": 4
+        }
+    },
+    "replacementSubTitles": {
+        "*": {
+            "ATDD": {
+                "Doing": "Development, Testing & Review",
+                "Done": "Ready for Merge/Awaiting Release"
+            },
+            "Automated Release": {
+                "Doing": "Ready for Release",
+                "Done": "Out for Release"
+            },
+            "Dev": {
+                "Doing": "Development, Testing & Review",
+                "Done": "Ready for Merge/Awaiting Release"
+            },
+            "Release": {
+                "Doing": "Ready for Performance Testing",
+                "Done": "Out for Release"
+            }
+        }
+    },
+    "groupColours": {
+        "PIM2,Global,TGR": {
+            "ATDD": {
+                "Ok": "#03a00b",
+                "Warn": "#ff0000"
+            },
+            "Queue": {
+                "Ok": "yellow",
+                "Warn": "#ff0000"
+            },
+            "Ready": {
+                "Ok": "orange",
+                "Warn": "#ff0000"
+            }
+        },
+        "Tech": {
+            "Dev": {
+                "Ok": "#663399",
+                "Warn": "#ff0000"
+            },
+            "Queue": {
+                "Ok": "#0000cd",
+                "Warn": "#ff0000"
+            },
+            "Ready": {
+                "Ok": "#ffdead",
+                "Warn": "#ff0000"
+            }
+        }
+    }
+}
